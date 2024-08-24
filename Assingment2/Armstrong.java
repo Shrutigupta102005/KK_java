@@ -5,8 +5,8 @@ public class Armstrong {
         int sum = 0;
         while(num>0)
         {
-            int cube = i*i*i;
-            sum += cube ;
+            int last_digit = num % 10;
+            sum += Math.pow(last_digit,3);
         }
         if (sum == num)
         {
