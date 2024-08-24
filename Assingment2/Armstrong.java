@@ -7,6 +7,7 @@ public class Armstrong {
         {
             int last_digit = num % 10;
             sum += Math.pow(last_digit,3);
+            num/=10;
         }
         if (sum == num)
         {
