@@ -1,3 +1,4 @@
+package Assingment3.basic_ques;
 public class Rectangle3 {
     public static void main(String[] args)
     {
