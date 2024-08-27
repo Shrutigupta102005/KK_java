@@ -1,4 +1,4 @@
-package Assignment3.intermediate_ques;
+package Assingment3.intermidiate_ques;
 
 public class DistanceBetweenTwoPoints {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class DistanceBetweenTwoPoints {
         System.out.println("The distance between the points is: " + AB);
     }
 }
-/*package Assingment3.intermidiate_ques;
+/*
 
 public class DistanceBetweenTwoPoints {
     public static void main(String[] args)
