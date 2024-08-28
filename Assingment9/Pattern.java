@@ -272,3 +272,9 @@ public class Pattern {
      */
     
 }
+/*
+ * pattern any pattern is just combination of two triangle break the triangle and find the results.
+ * Step1 see for number of rows.
+ * step2 see for number of column.
+ * step 3 kya print karna hai .
+ */
