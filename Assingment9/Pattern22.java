@@ -2,12 +2,21 @@ package Assingment9;
 
 public class Pattern22 {
     public static void main(String[] args) {
-        int n =5;
-        for(int i =1;i<=n;i++){
-            for(int j =1,p=0;j<=i;j++,p++){
-                System.out.print(p);
+        int n = 5;
+        int start =1;
+        for(int i =0;i<n;i++){
+            if(i%2==0){
+                start = 1;
             }
-            System.out.println();
+            else{
+                start =0;
+            }
+
+            for(int j =0;j<=i;j++){
+                System.out.print(start+" ");
+                start = 1-start;
+            }
+            System.out.println(" ");
         }
     }
 }
@@ -19,4 +28,4 @@ public class Pattern22 {
        1 0 1 0 1
 
  */
-//error hai abhi
+
