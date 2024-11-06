@@ -2,14 +2,15 @@ package rev.assingment2;
 
 public class Armstrong {
     public static void main(String[] args){
-        int num = 153;
+        int or = 153;
+        int num = or;
         int rel = 0 ;
         while(num>0){
             int digit = num %10 ;
             rel = rel+digit*digit*digit;
-            
+            num = num/10;
         }
-        if(rel == num){
+        if(rel == or){
             System.out.println("its an armstrong number");
 
         }
