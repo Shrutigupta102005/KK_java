@@ -10,6 +10,7 @@ public class Fibonnaci {
     int a = 0;
     int b =1;
     System.out.print(a + " ");
+    System.out.print(b+" ");
     for (int i =0;i<num;i++){
        
     int c= a+b;
